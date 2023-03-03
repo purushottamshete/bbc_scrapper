@@ -1,7 +1,7 @@
 
 BBC Article Scrapper:
 
-Use Selenium with PYTHON in headless mode on your Django framework Docker; 
+Use Selenium with PYTHON in headless mode on Django framework with Docker; 
 Update all details into mysql table
 
 Steps:
