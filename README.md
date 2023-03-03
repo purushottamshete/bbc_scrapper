@@ -9,3 +9,10 @@ Steps:
 2. Scrapper each article link in sperate thread and fetch title and body the topic.
 3. Populate MYSQL table with URL, Title & Body
 4. Display all the fetched articles on Home Page with scrapped time
+
+
+Usage:
+1. Clone the repo
+2. cd to cloned repo dir
+3. docker-compose up
+4. open url http://localhost:8000
