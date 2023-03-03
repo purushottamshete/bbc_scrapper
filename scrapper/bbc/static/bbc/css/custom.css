@@ -1,0 +1,90 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.body {
+  /* Margin bottom by footer height */
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+}
+
+.img-profile{
+    max-width: 50%;
+}
+
+.img-course-card {
+    width:50%;
+}
+
+.startup-img {
+    width:50%;
+}
+
+.content-title{
+    font-size: 3rem;
+}
+
+.banner-text {
+    font-size: 24px;
+    font-style: italic;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+}
+.banner-head {
+    font-style: italic;
+    font-size: 32px;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+}
+
+
+.home-banner {
+    padding-top: 80px;
+    background-position: center 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    padding-bottom: 80px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.sub-banner {
+    padding-top: 80px;
+    background-position: center 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    padding-bottom: 80px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 30px;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+}
+
+
+.top-banner {
+    background-position: center 0%;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    padding-bottom: 80px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 30px;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+}

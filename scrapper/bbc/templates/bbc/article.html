@@ -1,0 +1,27 @@
+{% extends "bbc/layout.html" %}
+{% block meta %}
+<meta name="title" content="BBC Scrapper" />
+<meta name="author" content="Prshete.com">
+<meta name="description" content="Purushottam Shete Scrapper" />
+{% endblock %}
+{% block title %}  BBC Scrapper | Prshete.com {% endblock %}
+{% block content %}
+{% load static %}
+<div class="container">
+    <table class="table">
+        {% if article %}
+        <tr>
+            <th>{{ article.title }} - <small>{{ article.created_at }}</small></th>
+        </tr>
+
+        <tr>
+            <td>{{ article.body }}</td>
+        </tr>
+        {% endif %}
+    </table>
+ 
+    
+</div>
+
+
+{% endblock %}

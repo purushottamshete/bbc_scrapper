@@ -1,0 +1,36 @@
+{% extends "bbc/layout.html" %}
+{% block meta %}
+<meta name="title" content="BBC Scrapper" />
+<meta name="author" content="Prshete.com">
+<meta name="description" content="Purushottam Shete Scrapper" />
+{% endblock %}
+{% block title %}  BBC Scrapper | Prshete.com {% endblock %}
+{% block content %}
+{% load static %}
+<div class="container">
+    <div class="row mt-1 mb-3">
+        <div class="col-lg-4">
+            <h1> BBC Articles</h1> 
+        </div>
+        <div class="col-lg-8 text-start">
+            <a class="btn btn-success" href="/scrape"> Scrape BBC Now</a>
+        </div>
+    </div>
+    <table class="table">
+        <tr>
+            <th>Title</th>
+            <th>Created At</th>
+        </tr>
+    {% for article in articles %}
+        <tr>
+            <td><a href='/article/{{article.id}}'>{{ article.title }}</a></td>
+            <td>{{ article.created_at }}</td>
+        </tr>
+    {% endfor %}
+    </table>
+ 
+    
+</div>
+
+
+{% endblock %}
