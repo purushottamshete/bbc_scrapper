@@ -1,0 +1,46 @@
+# Python and Django related files
+*.py[cod]
+__pycache__/
+*.egg-info/
+*.egg
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.swm
+*.swl
+*.bak
+*.DS_Store
+
+# Docker related files
+*.log
+*.pid
+*.out
+*.env
+*.env.*
+*.db
+*.db-journal
+*.pid
+*.coverage
+*.cache
+*.egg-info/
+*.egg
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.swm
+*.swl
+*.bak
+*.DS_Store
+
+# Local development files
+venv/
+*.sqlite3
+*.env
+.env.local
+
+# Ignore migrations in Django
+**/migrations/
